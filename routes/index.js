@@ -1,9 +1,14 @@
 var express = require('express');
+let request = require('request')
 var router = express.Router();
+let common = require('../common/common.json')
 
-/* GET home page. */
+/* 首页数据 追书热榜 top 20
+* 
+ */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express hello 123123 ' });
+  
+  res.send(JSON.stringify({'code':2012301,'msg':'success123'}));
 });
 
 module.exports = router;

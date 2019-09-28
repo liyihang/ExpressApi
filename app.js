@@ -7,7 +7,8 @@ let fs = require('fs');
 let fileStreamRotator = require('file-stream-rotator');
 
 var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+var searchRouter = require('./routes/search');
+let rankingRouter = require('./routes/ranking')
 
 var app = express();
 
@@ -46,7 +47,8 @@ app.all('*', function (req, res, next) {
 });
 
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
+app.use('/search', searchRouter);
+app.use('/ranking',rankingRouter)
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

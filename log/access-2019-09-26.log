@@ -92,3 +92,5 @@
 ::1 - - [26/Sep/2019:10:34:31 +0000] "GET / HTTP/1.1" 200 37 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
 ::1 - - [26/Sep/2019:10:35:51 +0000] "GET / HTTP/1.1" 200 56124 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
 ::1 - - [26/Sep/2019:10:36:46 +0000] "GET / HTTP/1.1" 200 4 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+::1 - - [26/Sep/2019:10:42:15 +0000] "GET / HTTP/1.1" 200 12924 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+::1 - - [26/Sep/2019:10:44:00 +0000] "GET / HTTP/1.1" 200 12924 "-" "PostmanRuntime/7.17.1"
